@@ -1,0 +1,63 @@
+# some common settings
+label:
+  SGLD: SGLD
+  SGLDDK: SGLDDK
+  SVGD: SVGD
+  SVGDBD: SVGD-BD
+  BLOB: Blob
+  BLOBBD: Blob-BD
+  BLOBDK: Blob-DK
+  BLOBBDDK: Blob-BD+DK
+  GFSD: GFSD
+  GFSDBD: GFSD-BD
+  GFSDDK: GFSD-DK
+  GFSDBDDK: GFSD-BD+DK
+  KSDD: KSDD
+  KSDDBD: KSDD-BD
+  KSDDDK: KSDD-DK
+order:
+  - SGLD
+  - SGLDDK
+  - SVGD
+  - GFSD
+  - GFSDBD
+  - GFSDDK
+  - GFSDBDDK
+  - BLOB
+  - BLOBBD
+  - BLOBDK
+  - BLOBBDDK
+  - KSDD
+  - KSDDBD
+  - KSDDDK
+color:
+  SGLD: cyan
+  SGLDDK: darkcyan
+  SVGD: black
+  GFSD: seagreen
+  GFSDBD: darkviolet
+  GFSDDK: teal
+  GFSDBDDK: blue
+  BLOB: olive
+  BLOBBD: crimson
+  BLOBDK: chocolate
+  BLOBBDDK: red
+  KSDD: limegreen
+  KSDDBD: green
+  KSDDDK: olivedrab
+linestyle:
+  SGLD: '--'
+  SGLDDK: '-.'
+  SVGD: '--'
+  GFSD: ':'
+  GFSDBD: '--'
+  GFSDDK: '-.'
+  GFSDBDDK: '-'
+  BLOB: ':'
+  BLOBBD: '--'
+  BLOBDK: '-.'
+  BLOBBDDK: '-'
+  KSDD: '--'
+  KSDDBD: '-'
+  KSDDDK: '-.'
+

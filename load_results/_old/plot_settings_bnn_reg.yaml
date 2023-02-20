@@ -1,0 +1,282 @@
+# some common settings
+label:
+  SGLD: ULD
+  SGLDDK: BDLS
+  SVGD: SVGD
+  SVGDBD: SVGD-BD
+  BLOB: Blob
+  BLOBBD: D-Blob-CA
+  BLOBDK: D-Blob-DK
+  GFSD: GFSD
+  GFSDBD: D-GFSD-CA
+  GFSDDK: D-GFSD-DK
+  KSDD: KSDD
+  KSDDBD: D-KSDD-CA
+  KSDDDK: D-KSDD-DK
+order:
+  - SGLD
+  - SGLDDK
+  - SVGD
+  - GFSD
+  - GFSDBD
+  - GFSDDK
+  - BLOB
+  - BLOBBD
+  - BLOBDK
+  - KSDD
+  - KSDDBD
+  - KSDDDK
+color:
+  SGLD: cyan
+  SGLDDK: darkcyan
+  SVGD: dimgray
+  GFSD: violet
+  GFSDBD: purple
+  GFSDDK: darkviolet
+  BLOB: orangered
+  BLOBBD: red
+  BLOBDK: chocolate
+  KSDD: limegreen
+  KSDDBD: green
+  KSDDDK: olivedrab
+linestyle:
+  SGLD: '--'
+  SGLDDK: '-.'
+  SVGD: '--'
+  GFSD: '--'
+  GFSDBD: '-'
+  GFSDDK: '-.'
+  BLOB: '--'
+  BLOBBD: '-'
+  BLOBDK: '-.'
+  KSDD: '--'
+  KSDDBD: '-'
+  KSDDDK: '-.'
+# boston
+results_save/bnn_regression/result_boston:
+  sparse: 1.0
+  output:
+    test_rmse: Boston
+  x_label: Number of data passes
+  x_max: 3000
+  x_ratio: 1
+  use_tick: true
+  x_scale: 
+    test_rmse: linear
+  y_scale:
+    test_rmse: linear
+  y_label: 
+    test_rmse: Test RMSE
+  y_min:
+    test_rmse: 3.1
+  y_max: 
+    test_rmse: 3.6
+# concrete
+results_save/bnn_regression/result_concrete:
+  sparse: 1.0
+  output:
+    test_rmse: Concrete
+  x_label: Number of data passes
+  x_max: 3000
+  x_ratio: 1
+  use_tick: true
+  x_scale: 
+    test_rmse: linear
+  y_scale:
+    test_rmse: linear
+  y_label: 
+    test_rmse: Test RMSE
+  y_min:
+    test_rmse: 6.1
+  y_max: 
+    test_rmse: 6.7
+# winered
+results_save/bnn_regression/result_winered:
+  sparse: 1.0
+  output:
+    test_rmse: WineRed
+  x_label: Number of data passes
+  x_max: 3000
+  x_ratio: 1
+  use_tick: true
+  x_scale: 
+    test_rmse: linear
+  y_scale:
+    test_rmse: linear
+  y_label: 
+    test_rmse: Test RMSE
+  y_min:
+    test_rmse: 0.63
+  y_max: 
+    test_rmse: 0.66
+# energy
+results_save/bnn_regression/result_energy:
+  sparse: 1.0
+  output:
+    test_rmse: Energy
+  x_label: Number of data passes
+  x_max: 300
+  x_ratio: 1
+  use_tick: true
+  x_scale: 
+    test_rmse: linear
+  y_scale:
+    test_rmse: linear
+  y_label: 
+    test_rmse: Test RMSE
+  y_min:
+    test_rmse: 75
+  y_max: 
+    test_rmse: 84
+# sapce
+results_save/bnn_regression/result_space:
+  sparse: 1.0
+  output:
+    test_rmse: Space
+  x_label: Number of data passes
+  x_max: 1500
+  x_ratio: 1
+  use_tick: true
+  x_scale: 
+    test_rmse: linear
+  y_scale:
+    test_rmse: linear
+  y_label: 
+    test_rmse: Test RMSE
+  y_min:
+    test_rmse: 0.088
+  y_max: 
+    test_rmse: 0.110
+# mpg
+results_save/bnn_regression/result_mpg:
+  sparse: 1.0
+  output:
+    test_rmse: MPG
+  x_label: Number of data passes
+  x_max: 5000
+  x_ratio: 1
+  use_tick: true
+  x_scale: 
+    test_rmse: linear
+  y_scale:
+    test_rmse: linear
+  y_label: 
+    test_rmse: Test RMSE
+  y_min:
+    test_rmse: 1.75
+  y_max: 
+    test_rmse: 2.1
+# electrical
+results_save/bnn_regression/result_electrical:
+  sparse: 1.0
+  output:
+    test_rmse: Electrical
+  x_label: Number of data passes
+  x_max: 200
+  x_ratio: 1
+  use_tick: true
+  x_scale: 
+    test_rmse: linear
+  y_scale:
+    test_rmse: linear
+  y_label: 
+    test_rmse: Test RMSE
+  y_min:
+    test_rmse: 0.007
+  y_max: 
+    test_rmse: 0.012
+# kin8nm
+results_save/bnn_regression/result_kin8nm:
+  sparse: 1.0
+  output:
+    test_rmse: kin8nm
+  x_label: Number of data passes
+  x_max: 500
+  x_ratio: 1
+  use_tick: true
+  x_scale: 
+    test_rmse: linear
+  y_scale:
+    test_rmse: linear
+  y_label: 
+    test_rmse: Test RMSE
+  y_min:
+    test_rmse: 0.07
+  y_max: 
+    test_rmse: 0.10
+# casp
+results_save/bnn_regression/result_casp:
+  sparse: 1.0
+  output:
+    test_rmse: CASP
+  x_label: Number of data passes
+  x_max: 200
+  x_ratio: 1
+  use_tick: true
+  x_scale: 
+    test_rmse: linear
+  y_scale:
+    test_rmse: linear
+  y_label: 
+    test_rmse: Test RMSE
+  y_min:
+    test_rmse: 4.4
+  y_max: 
+    test_rmse: 5.0
+# slice
+results_save/bnn_regression/result_slice:
+  sparse: 1.0
+  output:
+    test_rmse: Slice
+  x_label: Number of data passes
+  x_max: 50
+  x_ratio: 1
+  use_tick: true
+  x_scale: 
+    test_rmse: linear
+  y_scale:
+    test_rmse: linear
+  y_label: 
+    test_rmse: Test RMSE
+  y_min:
+    test_rmse: 4.4
+  y_max: 
+    test_rmse: 5.0
+# superconduct
+results_save/bnn_regression/result_superconduct:
+  sparse: 1.0
+  output:
+    test_rmse: Superconduct
+  x_label: Number of data passes
+  x_max: 50
+  x_ratio: 1
+  use_tick: true
+  x_scale: 
+    test_rmse: linear
+  y_scale:
+    test_rmse: linear
+  y_label: 
+    test_rmse: Test RMSE
+  y_min:
+    test_rmse: 4.4
+  y_max: 
+    test_rmse: 5.0
+# cpusmall
+results_save/bnn_regression/result_cpusmall:
+  sparse: 1.0
+  output:
+    test_rmse: Cpusmall
+  x_label: Number of data passes
+  x_max: 50
+  x_ratio: 1
+  use_tick: true
+  x_scale: 
+    test_rmse: linear
+  y_scale:
+    test_rmse: linear
+  y_label: 
+    test_rmse: Test RMSE
+  y_min:
+    test_rmse: 4.4
+  y_max: 
+    test_rmse: 5.0

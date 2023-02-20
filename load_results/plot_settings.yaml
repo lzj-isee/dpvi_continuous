@@ -1,0 +1,59 @@
+# some common settings
+label:
+  SGLD: ULD
+  SGLDDK: BDLS
+  HMC: HMC
+  SVGD: SVGD
+  SVGDBD: SVGD-BD
+  BLOB: Blob
+  BLOBCA: D-Blob-CA
+  BLOBDK: D-Blob-DK
+  GFSD: GFSD
+  GFSDCA: D-GFSD-CA
+  GFSDDK: D-GFSD-DK
+  KSDD: KSDD
+  KSDDCA: D-KSDD-CA
+  KSDDDK: D-KSDD-DK
+order:
+  - SGLD
+  - SGLDDK
+  - HMC
+  - SVGD
+  - GFSD
+  - GFSDCA
+  - GFSDDK
+  - BLOB
+  - BLOBCA
+  - BLOBDK
+  - KSDD
+  - KSDDCA
+  - KSDDDK
+color:
+  SGLD: cyan
+  SGLDDK: darkcyan
+  HMC: deepskyblue
+  SVGD: black
+  GFSD: violet
+  GFSDCA: purple
+  GFSDDK: darkviolet
+  BLOB: orangered
+  BLOBCA: red
+  BLOBDK: chocolate
+  KSDD: limegreen
+  KSDDCA: green
+  KSDDDK: olivedrab
+linestyle:
+  SGLD: '--'
+  SGLDDK: '-.'
+  HMC: '--'
+  SVGD: '--'
+  GFSD: '--'
+  GFSDCA: '-'
+  GFSDDK: '-.'
+  BLOB: '--'
+  BLOBCA: '-'
+  BLOBDK: '-.'
+  KSDD: '--'
+  KSDDCA: '-'
+  KSDDDK: '-.'
+# specific

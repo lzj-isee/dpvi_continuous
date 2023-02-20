@@ -1,0 +1,17 @@
+YearPredictionMSD-test.txt
+YearPredictionMSD-train.txt
+susy.txt
+usps-train.txt
+usps-test.txt
+meg.txt
+*.zetong-126
+*.zetong-126.*
+settings.md
+results.md
+*.npy
+*.png
+*.pdf
+*.txt
+events.*
+*.pkl
+*.csv

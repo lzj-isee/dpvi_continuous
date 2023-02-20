@@ -1,0 +1,82 @@
+# some common settings
+label:
+  SGLD: ULD
+  SGLDDK: BDLS
+  SVGD: SVGD
+  SVGDBD: SVGD-BD
+  BLOB: Blob
+  BLOBBD: D-Blob-CA
+  BLOBDK: D-Blob-DK
+  GFSD: GFSD
+  GFSDBD: D-GFSD-CA
+  GFSDDK: D-GFSD-DK
+  KSDD: KSDD
+  KSDDBD: D-KSDD-CA
+  KSDDDK: D-KSDD-DK
+order:
+  - SGLD
+  - SGLDDK
+  - SVGD
+  - GFSD
+  - GFSDBD
+  - GFSDDK
+  - BLOB
+  - BLOBBD
+  - BLOBDK
+  - KSDD
+  - KSDDBD
+  - KSDDDK
+color:
+  SGLD: cyan
+  SGLDDK: darkcyan
+  SVGD: black
+  GFSD: violet
+  GFSDBD: purple
+  GFSDDK: darkviolet
+  BLOB: orangered
+  BLOBBD: red
+  BLOBDK: chocolate
+  KSDD: limegreen
+  KSDDBD: green
+  KSDDDK: olivedrab
+linestyle:
+  SGLD: '--'
+  SGLDDK: '-.'
+  SVGD: '--'
+  GFSD: '--'
+  GFSDBD: '-'
+  GFSDDK: '-.'
+  BLOB: '--'
+  BLOBBD: '-'
+  BLOBDK: '-.'
+  KSDD: '--'
+  KSDDBD: '-'
+  KSDDDK: '-.'
+# sigle_gaussian
+results_save/result_sg:
+  output:
+    W2: single_gaussian
+  x_label: Number of particles
+  use_tick: true
+  y_scale:
+    W2: log
+  y_label: 
+    W2: 2-Wasserstein distance
+  y_min:
+    W2: 0.40
+  y_max: 
+    W2: 2.7
+# multi_gaussian
+results_save/result_mg:
+  output:
+    W2: multi_gaussian
+  x_label: Number of particles
+  use_tick: true
+  y_scale:
+    W2: log
+  y_label: 
+    W2: 2-Wasserstein distance
+  y_min:
+    W2: 0.37
+  y_max: 
+    W2: 2.6
